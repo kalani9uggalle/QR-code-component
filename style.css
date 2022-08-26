@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--Light-gray);
+    font-family:'Red Hat Display', sans-serif;
+    font: size 15px;
+    
+}
+.card{
+    width: 325px;
+    background-color: var(--White);
+    padding: 16px 16px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px  30px -8px rgb(197, 189, 245);
+    margin: 80px auto;
+
+
+}
+.container{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+
+   
+}
+.container > *{
+margin-top: 18px;
+}
+.qr-img{
+    width: 100%;
+    border-radius: 12px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--Dark-blue);
+}
+.desc{
+    font-size: 15px;
+    color: var(--Grayish-blue);
+    font-weight: 400;
+}
